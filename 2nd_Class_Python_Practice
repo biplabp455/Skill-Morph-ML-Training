@@ -1,0 +1,259 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOzjXpfltR2KkyXRsKJd9Cc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/biplabp455/Skill-Morph-ML-Training/blob/main/2nd_Class_Python_Practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "zzAfPPb7mcFC"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Welcome\\n\", 'to skill morph\\n', 234, \"\\n\", 56.9000)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "h77eCrllmxtl",
+        "outputId": "1dde67ab-b7ea-4fbd-8559-b4abef03a59c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome\n",
+            " to skill morph\n",
+            " 234 \n",
+            " 56.9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 12345\n",
+        "num2 = 3245\n",
+        "num3 = 456\n",
+        "res = num1 + num2 +num3\n",
+        "print(\"Result: \", res, \", OK\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dc51ed43of8Z",
+        "outputId": "7a757914-3d39-4aa6-a6a9-a604b3a7f82e"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result:  16046 , OK\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 145.89\n",
+        "num2 = 345.568\n",
+        "sum = num1 + num2\n",
+        "print(sum)\n",
+        "print(\"{:.3f}\".format(sum))\n",
+        "print(\"{:.5f}\".format(sum))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QfceJqHLqVfX",
+        "outputId": "4151499f-720d-4785-d52c-983ef0df6abc"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "491.45799999999997\n",
+            "491.458\n",
+            "491.45800\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1, num2 = 123, 456\n",
+        "print(num1,\"+\", num2, \"=\", num1 + num2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1kAzJw68rFyV",
+        "outputId": "ec56a4f1-cec0-4b45-9788-1399178bd1a4"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "123 + 456 = 579\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 123456\n",
+        "print(num1)\n",
+        "num1 = 3456\n",
+        "print(num1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7AoGSZ70sLP8",
+        "outputId": "1fcf0610-b6fb-4a5c-948b-8e7658ac1ed6"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "123456\n",
+            "3456\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Implicit Type conversion\n",
+        "num1 = 12345\n",
+        "num2 = 5000.6789\n",
+        "sum = num1 + num2\n",
+        "print(sum)\n",
+        "print(type(sum), type(num1), type(num2))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rOTGOr_8uPnx",
+        "outputId": "514f06cc-fc44-4fcc-b756-54b9075ea262"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "17345.6789\n",
+            "<class 'float'> <class 'int'> <class 'float'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Explicit Type conversion\n",
+        "num1 = 12345\n",
+        "num2 = 5000.6789\n",
+        "sum = num1 + int(num2)\n",
+        "print(type(num2))\n",
+        "print(int(sum))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bDZjZxW0u1tb",
+        "outputId": "cb27d37b-87c6-437d-e9dc-e1b2c5a4058a"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'float'>\n",
+            "17345\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input())\n",
+        "num2 = int(input())\n",
+        "sum = num1 + num2\n",
+        "print(sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gMo6NCbewNyD",
+        "outputId": "03d1b845-f2dd-47a7-fdeb-55d8a3fa05f0"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12\n",
+            "12\n",
+            "24\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
